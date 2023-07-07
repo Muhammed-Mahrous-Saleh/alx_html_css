@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: blue
+}
+
+h3 {
+    color: skyblue;
+}
+
+header li:hover a {
+    color: blue;
+}
