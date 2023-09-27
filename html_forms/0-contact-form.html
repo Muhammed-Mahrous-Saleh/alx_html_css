@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0. Simple Contact Form </title>
+    <style>
+        form {
+            margin: 0 auto;
+            width: fit-content;
+        }
+
+        form input,
+        form textarea {
+            display: block;
+            font-size: 20px;
+            width: 200px;
+            height: 50px;
+            margin-bottom: 30px;
+        }
+
+        form textarea {
+            width: 250px;
+            height: 100px;
+        }
+
+        form button {
+            padding: 10px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
